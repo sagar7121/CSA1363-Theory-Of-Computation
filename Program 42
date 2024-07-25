@@ -1,0 +1,201 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {347 325}
+	}
+	state {
+		coord {656 326}
+	}
+	state {
+		coord {954 320}
+	}
+	state {
+		coord {556 139}
+	}
+	state {
+		final {yes}
+		coord {793 74}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {d}
+		offset {-1.6183794300718801}
+		direction {R}
+		output {d}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.5707963267948966}
+		direction {R}
+		output {a}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {d}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {1.4994888620096063}
+		direction {L}
+		output {a}
+	}
+	edge 2 2 {
+		transits {d}
+		offset {-0.5554937352655437}
+		direction {L}
+		output {d}
+	}
+	edge 2 0 {
+		transits {c}
+		offset {7.297206202471275}
+		direction {R}
+		output {c}
+	}
+	edge 0 3 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {1.8417431771333173}
+		direction {R}
+		output {d}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	label {
+		text {N. SAGAR}
+		font {SansSerif 12 -}
+		coord {1012 43}
+	}
+	label {
+		text {192210568}
+		font {SansSerif 12 -}
+		coord {1014 75}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {353 326}
+	}
+	label {
+		text {q0}
+		font {SansSerif 12 -}
+		coord {343 324}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {q1}
+		font {SansSerif 12 -}
+		coord {651 323}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {951 320}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {954 315}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {963 324}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {966 324}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {970 323}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {q2}
+		font {SansSerif 12 -}
+		coord {952 322}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {q3}
+		font {SansSerif 12 -}
+		coord {553 136}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {785 75}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {791 72}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {786 72}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {q4}
+		font {SansSerif 12 -}
+		coord {794 72}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {252 75}
+		halign{center}
+		valign{center}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {968 224}
+		halign{center}
+		valign{center}
+	}
+}
