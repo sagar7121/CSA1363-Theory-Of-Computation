@@ -1,0 +1,143 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {86 311}
+	}
+	state {
+		coord {286 408}
+	}
+	state {
+		coord {505 418}
+	}
+	state {
+		coord {694 412}
+	}
+	state {
+		final {yes}
+		coord {514 304}
+	}
+	state {
+		coord {285 218}
+	}
+	state {
+		coord {492 196}
+	}
+	state {
+		coord {714 235}
+	}
+	edge 0 5 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {2.1244776490018946}
+		direction {R}
+		output {a}
+	}
+	edge 5 5 {
+		transits {b}
+		offset {-0.8563688144534745}
+		direction {R}
+		output {b}
+	}
+	edge 5 6 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 7 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 7 7 {
+		transits {a}
+		offset {1.2874883624194424}
+		direction {L}
+		output {a}
+	}
+	edge 7 7 {
+		transits {b}
+		offset {-0.4677628121079176}
+		direction {L}
+		output {b}
+	}
+	edge 7 0 {
+		transits {c}
+		offset {-1.2868221868546939}
+		direction {R}
+		output {c}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {-0.46847716868101374}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.4073198886242024}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.7572832284621136}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {-0.3395535888726262}
+		direction {L}
+		output {_}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {1.5834538786289487}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-0.03091797956304265}
+		direction {L}
+		output {b}
+	}
+	edge 2 4 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 6 4 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {1.1821999079908583}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {274 421}
+	}
+}

@@ -1,0 +1,97 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {336 252}
+	}
+	state {
+		coord {484 252}
+	}
+	state {
+		coord {625 251}
+	}
+	state {
+		final {yes}
+		coord {758 251}
+	}
+	edge 0 0 {
+		transits {a}
+		offset {1.9480453864372558}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.6689938790603492}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 3 1 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {1.4833009859925053}
+	}
+	label {
+		text {sai prathap reddy}
+		font {SansSerif 12 -}
+		coord {866 118}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {891 129}
+	}
+	label {
+		text {192210657}
+		font {SansSerif 12 -}
+		coord {885 129}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {367 42}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {388 40}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {382 42}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {383 46}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {383 47}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {380 50}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {422 47}
+	}
+	label {
+		text {28.}
+		font {SansSerif 12 -}
+		coord {47 46}
+	}
+}

@@ -1,0 +1,65 @@
+Automaton Simulator, v1.0
+dpda {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {458 339}
+	}
+	state {
+		coord {693 344}
+	}
+	state {
+		coord {926 343}
+	}
+	state {
+		final {yes}
+		coord {1186 340}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {-0.8478925143202567}
+		action {push a}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.5707963267948966}
+		stacktop {a}
+		action {push a}
+	}
+	edge 1 2 {
+		transits {c}
+		offset {-0.9035498609935054}
+		stacktop {a}
+		action {pop}
+	}
+	edge 2 2 {
+		transits {c}
+		offset {1.4954674359665565}
+		stacktop {a}
+		action {pop}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {718 236}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {945 298}
+	}
+	label {
+		text {sai prathap rededy}
+		font {SansSerif 12 -}
+		coord {933 66}
+	}
+	label {
+		text {192210657}
+		font {SansSerif 12 -}
+		coord {949 78}
+	}
+}

@@ -1,0 +1,53 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {194 262}
+	}
+	state {
+		coord {380 262}
+	}
+	state {
+		coord {566 267}
+	}
+	state {
+		final {yes}
+		coord {760 263}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.6188040602524102}
+	}
+	edge 0 0 {
+		transits {a}
+		offset {1.872747488625146}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {1.2827408797442708}
+	}
+	label {
+		text {sai prathap reddy}
+		font {SansSerif 12 -}
+		coord {876 83}
+	}
+	label {
+		text {192210657}
+		font {SansSerif 12 -}
+		coord {893 100}
+	}
+	label {
+		text {32.}
+		font {SansSerif 12 -}
+		coord {41 50}
+	}
+}
